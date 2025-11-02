@@ -1,0 +1,32 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "<h1>Learning ReactJS</h1> This repository contains my ReactJS practice projects and experiments. Each project demonstrates practical implementation to strengthen my React development skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashPatil1402/ReactJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YashPatil1402/ReactJS/issues"
+  },
+  "homepage": "https://github.com/YashPatil1402/ReactJS#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
+  }
+}

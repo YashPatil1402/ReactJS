@@ -1,0 +1,5 @@
+@import "tailwindcss";
+/* small extras */
+html { scroll-behavior: smooth; }
+.hidden-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.hidden-scrollbar::-webkit-scrollbar { display: none; }

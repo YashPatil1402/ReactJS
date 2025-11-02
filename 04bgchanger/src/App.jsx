@@ -39,6 +39,7 @@ function App() {
             style={{background:"#4ee6d1"}}>spalsh-Green</button>
           </div>
         </div>
+        <h1 className='bg-pink-400 rounded-3xl p-2 '> Hellow rold</h1>
       </div>
     </>
   )

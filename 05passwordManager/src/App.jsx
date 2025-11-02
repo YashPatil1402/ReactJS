@@ -44,7 +44,7 @@ function App() {
         </h1>
 
        
-        <div className="flex items-center mb-5 bg-gray-700 rounded-lg overflow-hidden shadow-inner">
+        <div className="flex items-center mb-5 bg-grey-400 rounded-lg overflow-hidden shadow-inner">
           <input
             type="text"
             value={password}
@@ -65,7 +65,7 @@ function App() {
         <div className="space-y-4 text-sm">
          
           <div className="flex items-center justify-between">
-            <label className="font-medium">Length: {passwordLength}</label>
+            <label className="font-medium ">Length: {passwordLength}</label>
             <input
               type="range"
               min={6}
@@ -93,7 +93,7 @@ function App() {
                 type="checkbox"
                 checked={includeSymbols}
                 onChange={() => setIncludeSymbols((prev) => !prev)}
-                className="accent-blue-500 scale-110"
+                className="accent-blue-500  scale-110"
               />
               Include Symbols
             </label>
@@ -108,6 +108,7 @@ function App() {
           </button>
         </div>
       </div>
+      <h1 className="bg-violet-400'1">Hello</h1>
     </div>
   );
 }
